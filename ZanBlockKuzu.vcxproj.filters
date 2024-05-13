@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\GameMain.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PadInput.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MouseInput.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyInput.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\SceneManager.cpp">
+      <Filter>customsrc\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\GameManager.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\GameTime.cpp">
+      <Filter>customcommon\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Cooldown.cpp">
+      <Filter>customcommon\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\FadeBox.cpp">
+      <Filter>customcommon\Components\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Primitive.cpp">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\DebugTools.cpp">
+      <Filter>customcommon\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\SceneBase.cpp">
+      <Filter>customcommon\Components\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\TextEffect.cpp">
+      <Filter>customcommon\Components\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\EndScene.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\GameScene.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\MainMenuScene.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\Player.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Rigidbody2D.cpp">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Vector2.cpp">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\Ball.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\LoseWall.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\PlayerControl.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Collider2D.cpp">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\GameObject.cpp">
+      <Filter>customcommon\Components\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Math.cpp">
+      <Filter>customcommon\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Hitbox.cpp">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\LineDeflect.cpp">
+      <Filter>customsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="customcommon\Spawner.cpp" />
+    <ClCompile Include="customcommon\Sprite.cpp">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClCompile>
+    <ClCompile Include="customsrc\PlayerSkill.cpp" />
+    <ClCompile Include="customsrc\BlockConstructor.cpp" />
+    <ClCompile Include="customcommon\BorderWall.cpp" />
+    <ClCompile Include="customsrc\BallSpawner.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GameMain.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PadInput.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MouseInput.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyInput.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinMain.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\SceneManager.h">
+      <Filter>customsrc\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\GameManager.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\PlayerControl.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\GameTime.h">
+      <Filter>customcommon\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Cooldown.h">
+      <Filter>customcommon\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\FadeBox.h">
+      <Filter>customcommon\Components\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Rigidbody2D.h">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Pos.h">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Primitive.h">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\DebugTools.h">
+      <Filter>customcommon\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\SceneBase.h">
+      <Filter>customcommon\Components\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\TextEffect.h">
+      <Filter>customcommon\Components\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\EndScene.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\GameScene.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\MainMenuScene.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\Player.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Math.h">
+      <Filter>customcommon</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Sprite.h">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\BlockConstructor.h" />
+    <ClInclude Include="customsrc\Ball.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\LoseWall.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Collider2D.h">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\GameObject.h">
+      <Filter>customcommon\Components\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Hitbox.h">
+      <Filter>customcommon\Components\2DSpecific</Filter>
+    </ClInclude>
+    <ClInclude Include="customsrc\LineDeflect.h">
+      <Filter>customsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="customcommon\Spawner.h" />
+    <ClInclude Include="customsrc\PlayerSkill.h" />
+    <ClInclude Include="customcommon\Raycast.h" />
+    <ClInclude Include="customcommon\BorderWall.h" />
+    <ClInclude Include="customsrc\BallSpawner.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{c878c277-f5b2-4111-815b-e370cabf4633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customsrc">
+      <UniqueIdentifier>{a0b50093-362e-4b70-833b-b80d3bde605a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customsrc\Scene">
+      <UniqueIdentifier>{371aeb5e-c7dc-4f89-bdf2-8da5c4d4585b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon">
+      <UniqueIdentifier>{b43955fa-28a8-4dcf-a007-b1a2a05fd0c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Components">
+      <UniqueIdentifier>{86aea358-33a8-469f-8a09-61796d806e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Components\Scene">
+      <UniqueIdentifier>{281d1d3a-aaa1-47ea-a2a5-f7bfd3b096f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Components\2DSpecific">
+      <UniqueIdentifier>{272bf115-c4cb-42b7-a653-b01b8e2c134a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Components\UI">
+      <UniqueIdentifier>{5ab0112c-c2b3-4ff5-9ba9-f7791df0e7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Components\NewFilter1">
+      <UniqueIdentifier>{5e6be95b-f238-47fa-a27f-0861e9bc3167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Components\GameObject">
+      <UniqueIdentifier>{1566cbe2-f489-44a4-8d9b-bab44c96abe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Utils">
+      <UniqueIdentifier>{cf8bbfbd-8c56-4191-953f-54d2aba1611d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customcommon\Debug">
+      <UniqueIdentifier>{97c5cd78-b3df-4f6d-85a9-c11e7cdfe259}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
